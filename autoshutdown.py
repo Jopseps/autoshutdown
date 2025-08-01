@@ -12,7 +12,7 @@ while(timeRemained > maxTime/2):
 
 print("get ready")
 
-while(timeRemained <= maxTime/2):
+while(timeRemained <= maxTime/2 and timeRemained > 0):
     print(timeRemained)
     time.sleep(1)
     timeRemained -= 1
